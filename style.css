@@ -1,11 +1,38 @@
+.container {
+  background-color: yellow;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+  "navbar"
+  "content"
+  "sidebar"
+  "footer";
+}
+
 navbar.nav {
   background-color: black;
+  grid-area: navbar;
 }
 
-main.video {
-  background-color: red;
+main.main {
+  background-color: bisque;
+  grid-area: content;
 }
 
-sidebar.side {
-  background-color: blue;
+aside.side {
+  background-color: aqua;
+  grid-area: sidebar;
 }
+
+footer.footer {
+  background-color: cadetblue;
+  grid-area: footer;
+}
+
+  .container {
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    "navbar navbar"
+    "content sidebar"
+    "footer footer" ;
+  }
