@@ -12,11 +12,11 @@
   
 }
   .container {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 60% 30% 10px;
     grid-template-areas:
-    "navbar navbar"
-    "content sidebar"
-    "footer footer" ;
+    "navbar navbar navbar navbar"
+    ". content sidebar ."
+    "footer footer footer footer" ;
   }
 
 
