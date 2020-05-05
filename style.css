@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   padding: 5px;
   background-color: yellow;
@@ -11,7 +15,7 @@
   
 }
   .container {
-    grid-template-columns: 1fr 50% auto% 10px;
+    grid-template-columns: 5% 50% auto 5%;
     grid-template-areas:
     "navbar navbar navbar navbar"
     ". content sidebar ."
