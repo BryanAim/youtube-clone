@@ -55,6 +55,10 @@ aside.side {
   width: 168px;
   height: 94px;
 }
+.side .media-group p {
+  font-size: small;
+}
+
 
 footer.footer {
   background-color: cadetblue;
