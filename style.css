@@ -33,6 +33,10 @@ navbar.nav ul{
   list-style-type: none;
   justify-content: space-between;
 }
+#logo-icon-container {
+  width: 80px;
+  height: 24px;
+}
 
 main.main {
   background-color: bisque;
@@ -50,6 +54,7 @@ aside.side {
 }
 .side .media-group{
   display: flex;
+  
 }
 .side .media-group img {
   width: 168px;
